@@ -62,19 +62,4 @@ Edit `config/config.yaml` for tickers, date splits, transaction cost, agent defa
 - Train / validation / test indices are disjoint (`data/preprocess.split_indices`).
 - Environment applies turnover costs before updating weights (`environments/portfolio_env.py`).
 
-## Project layout
 
-See `plan.md` for the specification used to generate this codebase.
-
-## Publish to GitHub
-
-Create an empty repository on GitHub (for example: `drl-portfolio-fe529`), then run:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: DRL portfolio optimization pipeline"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
