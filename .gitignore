@@ -1,0 +1,40 @@
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data and generated outputs
+data/raw/*.csv
+data/processed/*.csv
+results/models/*.zip
+results/logs/
+results/figures/*.png
+results/metrics_comparison.csv
+
+# OS files
+.DS_Store
+Thumbs.db
